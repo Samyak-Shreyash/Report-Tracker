@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:report_tracker/services/buildAppBar.dart';
-import 'package:report_tracker/services/theme.dart';
+
+import "../services/buildAppBar.dart";
+import "../services/theme.dart";
 
 class MyHomePage extends StatefulWidget {
   MyHomePage({Key key, this.title}) : super(key: key);

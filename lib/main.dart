@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:report_tracker/screens/home.dart';
-import 'package:report_tracker/services/theme.dart';
+
+import "screens/home.dart";
+import "services/theme.dart";
 
 void main() {
   runApp(MyApp());

@@ -1,9 +1,9 @@
-import 'package:flutter/material.dart';
-import 'package:report_tracker/services/theme.dart';
+import "package:flutter/material.dart";
 
-class BuildAppBar
-{
-  bool _themeDark =true;
+import "theme.dart";
+
+class BuildAppBar {
+  bool _themeDark = true;
   ThemeData _themeSet = ThemeData.light();
   IconData _themeIcon = Icons.wb_sunny;
 
@@ -12,9 +12,8 @@ class BuildAppBar
       title: Text(title),
       actions: [
         IconButton(
-            icon: !_themeDark?Icon(Icons.wb_sunny):Icon(Icons.cloud_queue),
-            onPressed: () =>
-            themeUpdate(_themeChanger))
+            icon: !_themeDark ? Icon(Icons.wb_sunny) : Icon(Icons.cloud_queue),
+            onPressed: () => themeUpdate(_themeChanger))
       ],
     );
   }
